@@ -95,12 +95,20 @@ a, a:visited, a:link {
   color: orange;
 }
 
-#container.alarming.urgent .customTitle {
+#container.alarming.urgent.low .customTitle {
   color: red;
 }
 
-#container.alarming.warning .customTitle {
+#container.alarming.warning.low .customTitle {
   color: yellow;
+}
+
+#container.alarming.urgent.high .customTitle {
+  color: #aa00cc;
+}
+
+#container.alarming.warning.high .customTitle {
+  color: #4466dd;
 }
 
 .primary {
@@ -116,12 +124,20 @@ a, a:visited, a:link {
   padding-right: 20px;
 }
 
-.urgent .bgButton {
+.urgent.low .bgButton {
   color: red;
 }
 
-.warning .bgButton {
+.warning.low .bgButton {
   color: yellow;
+}
+
+.urgent.high .bgButton {
+  color: #aa00cc;
+}
+
+.warning.high .bgButton {
+  color: #4466dd;
 }
 
 .inrange .bgButton {
