@@ -110,3 +110,19 @@ label {
   font-size: 12pt;
   text-transform: uppercase;
 }
+
+.daytodaystatchart {
+  min-width: 18em;
+}
+
+@media print {
+  .reportcontrols, #toolbar, #tabnav {
+    display: none !important;
+  }
+  main {
+    transform: scale(.9) translate(-5%, -5%) !important;
+  }
+  table {
+    break-inside: avoid !important;
+  }
+}
